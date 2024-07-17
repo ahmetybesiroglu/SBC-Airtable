@@ -1,12 +1,8 @@
-Sure, here's an updated README for your public GitHub repository:
-
----
-
 # SBC Options Valuation
 
 ## Overview
 
-This project automates the valuation of stock-based compensation options using the Black-Scholes model. The process involves fetching historical stock prices to calculate volatilities, obtaining risk-free rates from treasury yields, and computing the option values based on user-provided inputs. The calculated values are stored in Airtable for easy access and management.
+This project automates the valuation of stock-based compensation options using the Black-Scholes model. The process leverages APIs to fetch historical stock prices for volatility calculations and treasury yields for risk-free rate determinations. User-provided inputs are integrated into Airtable, where the entire process—from data input to valuation calculation—is managed. The calculated values are then stored back in Airtable for easy access and management.
 
 ## Table of Contents
 
